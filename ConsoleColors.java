@@ -1,7 +1,7 @@
 import java.util.Arrays;
 /**
  * 01.24.23: Chroma-Lion
- * @author jonasanderson
+ * @author 4Forte
  */
 public class ConsoleColors {
     // Reset
