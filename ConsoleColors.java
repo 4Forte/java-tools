@@ -4,10 +4,10 @@ import java.util.Arrays;
  * @author 4Forte
  */
 public class ConsoleColors {
-    // Reset
+    //reset
     private static final String RESET = "\033[0m";  // Text Reset
 
-    // Regular Colors: 0-7
+    //regular colors
     private static final String BLACK = "\033[0;30m";   // BLACK
     private static final String RED = "\033[0;31m";     // RED
     private static final String GREEN = "\033[0;32m";   // GREEN
@@ -17,7 +17,7 @@ public class ConsoleColors {
     private static final String CYAN = "\033[0;36m";    // CYAN
     private static final String WHITE = "\033[0;37m";   // WHITE
 
-    // Background b
+    //background
     private static final String BLACK_BACKGROUND = "\033[40m";  // BLACK
     private static final String RED_BACKGROUND = "\033[41m";    // RED
     private static final String GREEN_BACKGROUND = "\033[42m";  // GREEN
@@ -27,7 +27,7 @@ public class ConsoleColors {
     private static final String CYAN_BACKGROUND = "\033[46m";   // CYAN
     private static final String WHITE_BACKGROUND = "\033[47m";  // WHITE
     
-    //prefix, defaults to &
+    //prefix (defaults to &)
     public static char prefix = '&';
     public static void setPrefix(char p){
         prefix = p;
